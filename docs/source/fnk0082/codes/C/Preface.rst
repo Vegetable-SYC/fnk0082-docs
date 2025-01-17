@@ -146,12 +146,12 @@ Check whether CH343 has been installed
 .. image:: ../_static/imgs/Preface/Preface15.png
     :align: center
 
-2.	Turn to the main interface of your computer, select “This PC” and right-click to select “Manage”.
+2.	Turn to the main interface of your computer, select "This PC" and right-click to select "Manage".
 
 .. image:: ../_static/imgs/Preface/Preface16.png
     :align: center
 
-3.	Click “Device Manager”. If your computer has installed CH343, you can see“USB-Enhances-SERIAL CH343 (COMx)”. And you can click :ref:`here <programming>` to move to the next step.
+3.	Click "Device Manager". If your computer has installed CH343, you can see"USB-Enhances-SERIAL CH343 (COMx)". And you can click :ref:`here <programming>` to move to the next step.
 
 .. image:: ../_static/imgs/Preface/Preface17.png
     :align: center
@@ -164,22 +164,22 @@ Installing CH343
 .. image:: ../_static/imgs/Preface/Preface18.png
     :align: center
 
-If you would not like to download the installation package, you can open “ **Freenove_Ultimate_Starter_Kit_for_ESP32_S3/CH343** ”, we have prepared the installation package.
+If you would not like to download the installation package, you can open " **Freenove_Ultimate_Starter_Kit_for_ESP32_S3/CH343** ", we have prepared the installation package.
 
 .. image:: ../_static/imgs/Preface/Preface19.png
     :align: center
 
-2.	Open the folder “ **Freenove_Ultimate_Starter_Kit_for_ESP32_S3/CH343/Windows/** ”
+2.	Open the folder " **Freenove_Ultimate_Starter_Kit_for_ESP32_S3/CH343/Windows/** "
 
 .. image:: ../_static/imgs/Preface/Preface20.png
     :align: center
 
-3.	Double click “CH343SER.EXE”.
+3.	Double click "CH343SER.EXE".
 
 .. image:: ../_static/imgs/Preface/Preface21.png
     :align: center
 
-4.	Click “INSTALL” and wait for the installation to complete.
+4.	Click "INSTALL" and wait for the installation to complete.
 
 .. image:: ../_static/imgs/Preface/Preface22.png
     :align: center
@@ -189,7 +189,7 @@ If you would not like to download the installation package, you can open “ **F
 .. image:: ../_static/imgs/Preface/Preface23.png
     :align: center
 
-6.	When ESP32-S3 WROOM is connected to computer, select “This PC”, right-click to select “Manage” and click “Device Manager” in the newly pop-up dialog box, and you can see the following interface.
+6.	When ESP32-S3 WROOM is connected to computer, select "This PC", right-click to select "Manage" and click "Device Manager" in the newly pop-up dialog box, and you can see the following interface.
 
 .. image:: ../_static/imgs/Preface/Preface24.png
     :align: center
@@ -204,9 +204,9 @@ First, download CH343 driver, click http://www.wch-ic.com/search?t=all&q=ch343 t
 .. image:: ../_static/imgs/Preface/Preface25.png
     :align: center
 
-If you would not like to download the installation package, you can open “ **Freenove_Ultimate_Starter_Kit_for_ESP32_S3/CH343** ”, we have prepared the installation package.
+If you would not like to download the installation package, you can open " **Freenove_Ultimate_Starter_Kit_for_ESP32_S3/CH343** ", we have prepared the installation package.
 
-Second, open the folder “ **Freenove_Ultimate_Starter_Kit_for_ESP32_S3/CH343/MAC/** ”
+Second, open the folder " **Freenove_Ultimate_Starter_Kit_for_ESP32_S3/CH343/MAC/** "
 
 .. image:: ../_static/imgs/Preface/Preface26.png
     :align: center
@@ -327,7 +327,7 @@ Third, fill in https://raw.githubusercontent.com/espressif/arduino-esp32/gh-page
 .. image:: ../_static/imgs/Preface/Preface44.png
     :align: center
 
-Fourth, click "Boards Manager". Enter “esp32” in Boards manager and select 2.0.5, Then click “INSTALL”.
+Fourth, click "Boards Manager". Enter "esp32" in Boards manager and select 2.0.5, Then click "INSTALL".
 
 .. image:: ../_static/imgs/Preface/Preface45.png
     :align: center
