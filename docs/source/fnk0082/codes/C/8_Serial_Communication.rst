@@ -2,7 +2,7 @@
 Chapter Serial Communication
 ##############################################################################
 
-Serial Communication is a means of communication between different devices/devices. This section describes ESP32-S3’s Serial Communication.
+Serial Communication is a means of communication between different devices/devices. This section describes ESP32-S3's Serial Communication.
 
 Project 8.1 Serial Print
 ********************************
@@ -149,7 +149,7 @@ Reference
 
 .. py:function:: int available(void);	
     
-    Get the number of bytes (characters) available for reading from the serial port. This is data that’s already arrived and stored in the serial receive buffer.
+    Get the number of bytes (characters) available for reading from the serial port. This is data that's already arrived and stored in the serial receive buffer.
     
 .. py:function:: Serial.read();	
     

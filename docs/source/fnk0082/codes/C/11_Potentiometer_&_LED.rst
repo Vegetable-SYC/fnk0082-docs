@@ -47,7 +47,7 @@ Circuit
    * -  |Chapter11_00|
 
    * -  Hardware connection.
-      
+
         :red:`If you need any support, please feel free to contact us via:` support@freenove.com
      -  |Chapter11_01|
 

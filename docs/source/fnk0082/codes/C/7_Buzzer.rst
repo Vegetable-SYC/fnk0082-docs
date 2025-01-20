@@ -25,7 +25,7 @@ Component List
 |                   |                  |                         |
 | (S8050)           |                  |                         |
 |                   |                  |                         |
-| |Chapter07_00|    | |Chapter01_04|   | |Chapter01_05|          |
+| |Chapter07_00|    | |Chapter07_11|   | |Chapter01_05|          |
 +-------------------+------------------+-------------------------+
 | Resistor 10kΩ x2  | Push button x1   | Active buzzer x1        |
 |                   |                  |                         |
@@ -41,6 +41,7 @@ Component List
 .. |Chapter02_01| image:: ../_static/imgs/2_Button_&_LED/Chapter02_01.png
 .. |Chapter02_02| image:: ../_static/imgs/2_Button_&_LED/Chapter02_02.png
 .. |Chapter07_00| image:: ../_static/imgs/7_Buzzer/Chapter07_00.png
+.. |Chapter07_11| image:: ../_static/imgs/7_Buzzer/Chapter07_11.png
     
 Component knowledge
 ===============================

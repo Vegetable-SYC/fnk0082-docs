@@ -49,7 +49,7 @@ Their differences can more easily be seen when compared when graphed as below.
 .. image:: ../_static/imgs/4_Analog_&_PWM/Chapter04_00.png
     :align: center
 
-In practical application, we often use binary as the digital signal, that is a series of 0’s and 1’s. Since a binary signal only has two values (0 or 1), it has great stability and reliability. Lastly, both analog and digital signals can be converted into the other.
+In practical application, we often use binary as the digital signal, that is a series of 0's and 1's. Since a binary signal only has two values (0 or 1), it has great stability and reliability. Lastly, both analog and digital signals can be converted into the other.
 
 PWM
 ---------------------------
