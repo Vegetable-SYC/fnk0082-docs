@@ -18,7 +18,7 @@ Component List
    :align: center
    
    * -  ESP32-S3 WROOM x1
-     -  USB cable x1S
+     -  USB cable x1
 
    * -  |Chapter00_00|
      -  |Chapter00_01|

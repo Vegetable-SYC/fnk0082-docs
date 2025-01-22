@@ -9,6 +9,9 @@ Project 1.1 Blink
 
 In this project, we will use ESP32-S3 WROOM to control blinking a common LED.
 
+Component List
+============================
+
 +-----------------------------+----------------------------------+
 | ESP32-S3 WROOM x1           | GPIO Extension Board x1          |
 |                             |                                  |
