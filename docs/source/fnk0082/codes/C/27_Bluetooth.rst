@@ -4,7 +4,7 @@ Chapter Bluetooth
 
 This chapter mainly introduces how to make simple data transmission through Bluetooth of ESP32-S3 WROOM and mobile phones.
 
-Project 27.1 Bluetooth Low Energy Data Passthrough
+Project Bluetooth Low Energy Data Passthrough
 *************************************************************
 
 Component List
@@ -80,7 +80,7 @@ In the Scan page, swipe down to refresh the name of Bluetooth that the phone sea
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_06.png
     :align: center
 
-Click “Receive”. Select the appropriate Data format in the box to the right of Data Format. For example, HEX for hexadecimal, utf-string for character, Binary for Binary, etc. Then click SUBSCRIBE.
+Click "Receive". Select the appropriate Data format in the box to the right of Data Format. For example, HEX for hexadecimal, utf-string for character, Binary for Binary, etc. Then click SUBSCRIBE.
 
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_07.png
     :align: center
@@ -95,7 +95,7 @@ And then you can see the mobile Bluetooth has received the message.
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_09.png
     :align: center
 
-Similarly, you can select “Send” on your phone. Set Data format, and then enter anything in the sending box and click Write to send.
+Similarly, you can select "Send" on your phone. Set Data format, and then enter anything in the sending box and click Write to send.
 
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_10.png
     :align: center
@@ -176,7 +176,7 @@ The design for creating the BLE server is:
     :lines: 44-57
     :dedent:
 
-Project 27.2 Bluetooth Control LED
+Project Bluetooth Control LED
 *****************************************
 
 In this section, we will control the LED with Bluetooth.
@@ -231,7 +231,7 @@ Connect Freenove ESP32-S3 to the computer using a USB cable.
 Sketch
 =================================
 
-Sketch_27.2_Bluetooth_Control_LED
+Sketch_Bluetooth_Control_LED
 -------------------------------------------
 
 .. image:: ../_static/imgs/27_Bluetooth/Chapter27_14.png

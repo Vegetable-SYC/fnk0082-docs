@@ -4,7 +4,7 @@ Chapter Infrared Motion Sensor
 
 In this chapter, we will learn a widely used sensor, infrared motion sensor. 
 
-Project 25.1 Infrared Motion Detector with LED Indicator
+Project Infrared Motion Detector with LED Indicator
 ****************************************************************
 
 In this project, we will make a motion detector, with the human body infrared pyroelectric sensors.
@@ -107,9 +107,9 @@ Circuit
 Sketch
 ===========================
 
-In this project, we will use the infrared motion sensor to trigger a LED, essentially making the infrared motion sensor act as a motion switch. Therefore, the code is very similar to the earlier project "push button switch and LED”. The difference is that, when infrared motion sensor detects change, it will output high level; when button is pressed, it will output low level. When the sensor output high level, the LED turns ON, or it will turn OFF.
+In this project, we will use the infrared motion sensor to trigger a LED, essentially making the infrared motion sensor act as a motion switch. Therefore, the code is very similar to the earlier project "push button switch and LED". The difference is that, when infrared motion sensor detects change, it will output high level; when button is pressed, it will output low level. When the sensor output high level, the LED turns ON, or it will turn OFF.
 
-Sketch_25.1_Infrared_Motion_Sensor
+Sketch_Infrared_Motion_Sensor
 ---------------------------------------
 
 .. image:: ../_static/imgs/25_Infrared_Motion_Sensor/Chapter25_06.png
@@ -118,6 +118,9 @@ Sketch_25.1_Infrared_Motion_Sensor
 Verify and upload the code, and put the sensor on a stationary table and wait for about a minute. Then try to move away from or move closer to the infrared motion sensor and observe whether the LED turns ON or OFF automatically.
 
 You can rotate the potentiometer on the sensor to adjust the detection effect, or use different modes by changing the jumper.
+
+.. image:: ../_static/imgs/25_Infrared_Motion_Sensor/Chapter25_02.png
+    :align: center
 
 Apart from that, you can also use this sensor to control some other modules to implement different functions by reediting the code, such as the induction lamp, induction door.
 

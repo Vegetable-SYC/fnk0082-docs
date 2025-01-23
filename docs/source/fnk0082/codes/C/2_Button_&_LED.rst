@@ -9,7 +9,7 @@ Usually, there are three essential parts in a complete automatic control device:
 
 Next, we will build a simple control system to control a LED through a push button switch.
 
-Project 2.1 Button & LED
+Project Button & LED
 ***********************************
 
 In the project, we will control the LED state through a Push Button Switch. When the button is pressed, our LED will turn ON, and when it is released, the LED will turn OFF. 
@@ -83,9 +83,9 @@ This project is designed for learning how to use push button switch to control a
 
 Upload following sketch:
 
-**Freenove_Ultimate_Starter_Kit_for_ESP32_S3\Sketches\Sketch_02.1_ButtonAndLed.**
+**Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\Sketches\\Sketch_02.1_ButtonAndLed.**
 
-Sketch_02.1_ButtonAndLed
+Sketch_ButtonAndLed
 -----------------------------
 
 .. image:: ../_static/imgs/2_Button_&_LED/Chapter02_06.png
@@ -128,7 +128,7 @@ Reference
 
     This function returns the value read at the given pin. It will be "HIGH" or "LOW"(1 or 0) depending on the logic level at the pin.
 
-Project 2.2 MINI table lamp
+Project MINI table lamp
 ***************************************
 
 We will also use a push button switch, LED and ESP32-S3 to make a MINI table lamp but this will function differently: Press the button, the LED will turn ON, and pressing the button again, the LED turns OFF. The ON switch action is no longer momentary (like a door bell) but remains ON without needing to continually press on the Button Switch.
@@ -150,7 +150,7 @@ This project needs the same components and circuits as we used in the previous s
 Sketch
 =================================
 
-Sketch_02.2_Tablelamp
+Sketch_Tablelamp
 ---------------------------------
 
 .. image:: ../_static/imgs/2_Button_&_LED/Chapter02_09.png

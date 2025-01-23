@@ -6,7 +6,7 @@ In this chapter, we'll focus on the WiFi infrastructure for ESP32-S3 WROOM.
 
 ESP32-S3 WROOM has 3 different WiFi operating modes: station mode, AP mode and AP+station mode. All WiFi programming projects must be configured with WiFi operating mode before using WiFi, otherwise WiFi cannot be used.
 
-Project 30.1 Station mode
+Project Station mode
 ************************************
 
 Component List
@@ -43,7 +43,7 @@ Connect Freenove ESP32-S3 to the computer using the USB cable.
 Sketch
 =============================
 
-Sketch_30.1_Station_mode
+Sketch_Station_mode
 -------------------------------
 
 .. image:: ../_static/imgs/30_WiFi_Working_Modes/Chapter30_02.png
@@ -56,7 +56,7 @@ After making sure the router name and password are entered correctly, compile an
 .. image:: ../_static/imgs/30_WiFi_Working_Modes/Chapter30_03.png
     :align: center
 
-When ESP32-S3 WROOM successfully connects to “ssid_Router”, serial monitor will print out the IP address assigned to ESP32-S3 WROOM by the router.
+When ESP32-S3 WROOM successfully connects to "ssid_Router", serial monitor will print out the IP address assigned to ESP32-S3 WROOM by the router.
 
 The following is the program code:
 
@@ -142,7 +142,7 @@ Reference
     
     **setAutoReconnect(boolen):** set automatic reconnection Every time ESP32-S3 disconnects WiFi, it will reconnect to WiFi automatically.
 
-Project 30.2 AP mode
+Project AP mode
 *********************************
 
 Component List & Circuit
@@ -187,7 +187,7 @@ When observing the print information of the serial monitor, turn on the WiFi sca
 .. image:: ../_static/imgs/30_WiFi_Working_Modes/Chapter30_08.png
     :align: center
 
-Sketch_30.2_AP_mode
+Sketch_AP_mode
 ------------------------------------
 
 The following is the program code:
@@ -272,7 +272,7 @@ Reference
 
     **softAPdisconnect ():** disconnect AP mode.
 
-Project 30.3 AP+Station mode
+Project AP+Station mode
 **************************************
 
 Component List
@@ -303,7 +303,7 @@ Connect Freenove ESP32-S3 to the computer using the USB cable.
 Sketch
 ==================================
 
-Sketch_30.3_AP_Station_mode
+Sketch_AP_Station_mode
 ----------------------------------
 
 .. image:: ../_static/imgs/30_WiFi_Working_Modes/Chapter30_10.png

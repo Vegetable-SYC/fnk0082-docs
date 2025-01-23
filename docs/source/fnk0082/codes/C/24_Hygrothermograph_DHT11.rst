@@ -4,7 +4,7 @@ Chapter Hygrothermograph DHT11
 
 In this chapter, we will learn about a commonly used sensor called a Hygrothermograph DHT11.
 
-Project 24.1 Hygrothermograph
+Project Hygrothermograph
 ******************************************
 
 Hygrothermograph is an important tool in our lives to give us data on the temperature and humidity in our environment. In this project, we will use the ESP32-S3 to read temperature and humidity data of the DHT11 Module.
@@ -84,7 +84,7 @@ Refer to the following operations:
 .. image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_04.png
     :align: center
 
-Sketch_24.1_Temperature_and_Humidity_Sensor
+Sketch_Temperature_and_Humidity_Sensor
 ---------------------------------------------------
 
 .. image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_05.png
@@ -151,7 +151,7 @@ Reference
     
     **getStatus():** To judge whether the obtained data format is normal, the return value of 0 means the data is normal, and the return value of non-0 means the data is abnormal or the data fails to be obtained.
 
-Project 24.2 Hygrothermograph
+Project Hygrothermograph
 *************************************
 
 In this project, we use L2C-LCD1602 to display data collected by DHT11.
@@ -207,13 +207,13 @@ Sketch
 
 This code uses the DHTesp and LiquidCrystal_I2C libraries, so make sure the relevant library files are added before writing the program.
 
-Sketch_24.2_Temperature_and_Humidity_Sensor
+Sketch_Temperature_and_Humidity_Sensor
 ----------------------------------------------------------
 
 .. image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_10.png
     :align: center
 
-Download the code to ESP32-S3 WROOM. The first line of LCD1602 shows the temperature value, and the second line shows the humidity value. Try to “pinch” the thermistor (without touching the leads) with your index finger and thumb for a brief time to observe the change in the LCD display value.
+Download the code to ESP32-S3 WROOM. The first line of LCD1602 shows the temperature value, and the second line shows the humidity value. Try to "pinch" the thermistor (without touching the leads) with your index finger and thumb for a brief time to observe the change in the LCD display value.
 
 .. image:: ../_static/imgs/24_Hygrothermograph_DHT11/Chapter24_11.png
     :align: center

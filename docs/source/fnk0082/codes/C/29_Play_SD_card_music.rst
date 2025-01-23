@@ -4,7 +4,7 @@ Chapter Play SD card music
 
 In the previous study, we have learned how to use the SD card, and then we will learn to play the music in the SD card.
 
-Project 29.1 SDMMC Music
+Project SDMMC Music
 ******************************
 
 In this project, we will read an mp3 file from an SD card, decode it through ESP32-S3, and use a speaker to play it.
@@ -84,17 +84,17 @@ Open arduino -> Sketch -> Include library -> Add .ZIP Library.
 .. image:: ../_static/imgs/29_Play_SD_card_music/Chapter29_05.png
     :align: center
 
-In the new pop-up window, select " **Freenove_Ultimate_Starter_Kit_for_ESP32_S3\C\Libraries\ESP8266Audio.zip** ". Then click “Open“.
+In the new pop-up window, select " **Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\C\\Libraries\\ESP8266Audio.zip** ". Then click "Open".
 
 .. image:: ../_static/imgs/29_Play_SD_card_music/Chapter29_06.png
     :align: center
 
-Sketch_29.1_PlayMP3FromSD
+Sketch_PlayMP3FromSD
 ------------------------------------
 
 We placed a folder called "music" in:
 
-**Freenove_Ultimate_Starter_Kit_for_ESP32_S3\Sketches\Sketch_29.1_PlayMP3FromSD**
+**Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\Sketches\\Sketch_29.1_PlayMP3FromSD**
 
 User needs to copy this folder to SD card.
 
@@ -158,7 +158,7 @@ Determine whether the mp3 player is finished. If it is playing, continue playing
     :lines: 67-72
     :dedent:
 
-Project 29.2 SDMMC Music
+Project SDMMC Music
 ***********************************
 
 In this project, we will read mp3 files from SD card, decode them through ESP32-S3, and use Audio Converter & Amplifier module to transcode into stereo output.
@@ -290,19 +290,19 @@ Open arduino -> Sketch -> Include library -> Add .ZIP Library.
 .. image:: ../_static/imgs/29_Play_SD_card_music/Chapter29_17.png
     :align: center
 
-In the new pop-up window, select "Freenove_Ultimate_Starter_Kit_for_ESP32_S3\C\Libraries\ESP32-audioI2S.zip". 
+In the new pop-up window, select "Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\C\\Libraries\\ESP32-audioI2S.zip". 
 
-Then click “Open“.
+Then click "Open".
 
 .. image:: ../_static/imgs/29_Play_SD_card_music/Chapter29_18.png
     :align: center
 
-Sketch_29.1_SDMMC_Music
+Sketch_SDMMC_Music
 ----------------------------------
 
 We placed a folder called "music" in:
 
-**Freenove_Ultimate_Starter_Kit_for_ESP32_S3\Sketches\Sketch_29.2_SDMMC_Music.**
+**Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\Sketches\\Sketch_29.2_SDMMC_Music.**
 
 User needs to copy this folder to SD card.
 

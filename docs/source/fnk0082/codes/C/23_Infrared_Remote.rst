@@ -4,7 +4,7 @@ Chapter Infrared Remote
 
 In this chapter, we'll learn how to use an infrared remote control, and control a LED.
 
-Project 23.1 Infrared Remote Control
+Project Infrared Remote Control
 ******************************************
 
 First, we need to understand how infrared remote control works, then get the command sent from infrared remote control.
@@ -104,7 +104,7 @@ Refer to the following operations:
 .. image:: ../_static/imgs/23_Infrared_Remote/Chapter23_07.png
     :align: center
 
-Sketch_23.1_Infrared_Remote_Control
+Sketch_Infrared_Remote_Control
 ---------------------------------------
 
 .. image:: ../_static/imgs/23_Infrared_Remote/Chapter23_08.png
@@ -169,7 +169,7 @@ Reference
 
     **data():** Get IR data.
 
-Project 23.2 Control LED through Infrared Remote
+Project Control LED through Infrared Remote
 *********************************************************
 
 In this project, we will control the brightness of LED lights through an infrared remote control.
@@ -220,12 +220,31 @@ Component List
 .. |Chapter07_00| image:: ../_static/imgs/7_Buzzer/Chapter07_00.png
 .. |Chapter07_01| image:: ../_static/imgs/7_Buzzer/Chapter07_01.png
 
+Circuit
+============================
+
+.. list-table::
+   :width: 100%
+   :header-rows: 1 
+   :align: center
+   
+   * -  Schematic diagram
+   * -  |Chapter23_14|
+
+   * -  Hardware connection.
+      
+        :red:`If you need any support, please feel free to contact us via:` support@freenove.com
+     -  |Chapter23_15| 
+
+.. |Chapter23_14| image:: ../_static/imgs/23_Infrared_Remote/Chapter23_14.png
+.. |Chapter23_15| image:: ../_static/imgs/23_Infrared_Remote/Chapter23_15.png 
+
 Sketch
 =============================
 
 The sketch controls the brightness of the LED by determining the key value of the infrared received.
 
-Sketch_23.2_Control_LED_through_Infrared_Remote
+Sketch_Control_LED_through_Infrared_Remote
 -------------------------------------------------------
 
 .. image:: ../_static/imgs/23_Infrared_Remote/Chapter23_10.png

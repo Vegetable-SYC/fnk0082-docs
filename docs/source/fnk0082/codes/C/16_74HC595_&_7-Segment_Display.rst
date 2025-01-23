@@ -1,10 +1,10 @@
 ##############################################################################
-Chapter 74HC595 & 7-Segment Display.
+Chapter 74HC595 & 7-Segment Display
 ##############################################################################
 
 In this chapter, we will introduce the 7-Segment Display.
 
-Project 16.1 7-Segment Display.
+Project 7-Segment Display.
 **************************************
 
 We will use 74HC595 to control 7-segment display and make it display hexadecimal character "0-F".
@@ -50,12 +50,12 @@ A 7-segment display is a digital electronic display device. There is a figure "8
 .. image:: ../_static/imgs/16_74HC595_&_7-Segment_Display/Chapter16_01.png
     :align: center
 
-As we can see in the above circuit diagram, we can control the state of each LED separately. Also, by combining LEDs with different states of ON and OFF, we can display different characters (Numbers and Letters). For example, to display a “0”: we need to turn ON LED segments A, B, C, D, E and F, and turn OFF LED segments G and DP.
+As we can see in the above circuit diagram, we can control the state of each LED separately. Also, by combining LEDs with different states of ON and OFF, we can display different characters (Numbers and Letters). For example, to display a "0": we need to turn ON LED segments A, B, C, D, E and F, and turn OFF LED segments G and DP.
 
 .. image:: ../_static/imgs/16_74HC595_&_7-Segment_Display/Chapter16_02.png
     :align: center
 
-In this project, we will use a 7-Segment Display with a common anode. Therefore, when there is an input low level to a LED segment the LED will turn ON. Defining segment “A” as the lowest level and segment “DP” as the highest level, from high to low would look like this: “DP”, “G”, “F”, “E”, “D”, “C”, “B”, “A”. Character "0" corresponds to the code: 1100 0000b=0xc0.
+In this project, we will use a 7-Segment Display with a common anode. Therefore, when there is an input low level to a LED segment the LED will turn ON. Defining segment "A" as the lowest level and segment "DP" as the highest level, from high to low would look like this: "DP", "G", "F", "E", "D", "C", "B", "A". Character "0" corresponds to the code: 1100 0000b=0xc0.
 
 For detailed code values, please refer to the following table (common anode). 
 
@@ -118,7 +118,7 @@ Sketch
 
 In this section, the 74HC595 is used in the same way as in the previous section, but with different values transferred. We can learn how to master the digital display by sending the coded value of "0" - "F".
 
-Sketch_16.1_7_Segment_Display
+Sketch_7_Segment_Display
 ------------------------------------
 
 .. image:: ../_static/imgs/16_74HC595_&_7-Segment_Display/Chapter16_05.png
@@ -136,7 +136,7 @@ The following is the program code:
     :language: c
     :dedent:
 
-First, put encoding of “0”- “F” into the array.
+First, put encoding of "0"- "F" into the array.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_1_Digit_7-Segment_DisplaySketch_16.1_1_Digit_7-Segment_Display.ino
     :linenos: 
@@ -144,7 +144,7 @@ First, put encoding of “0”- “F” into the array.
     :lines: 12-15
     :dedent:
 
-Then, in the loop, we transfer the member of the “num” to 74HC595 by calling the writeData function, so that the digital tube displays what we want. After each display, “0xff” is used to eliminate the previous effect and prepare for the next display.
+Then, in the loop, we transfer the member of the "num" to 74HC595 by calling the writeData function, so that the digital tube displays what we want. After each display, "0xff" is used to eliminate the previous effect and prepare for the next display.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.1_1_Digit_7-Segment_Display/Sketch_16.1_1_Digit_7-Segment_Display.ino
     :linenos: 
@@ -168,7 +168,7 @@ If you want to display the decimal point, make the highest bit of each array bec
     :lines: 37-37
     :dedent:
 
-Project 16.2 4-Digit 7-Segment Display
+Project 4-Digit 7-Segment Display
 *********************************************
 
 Now, let's try to control more digit 7-segment display
@@ -239,7 +239,7 @@ Sketch
 
 In this code, we use the 74HC595 IC chip to control the 4-digit 7-segment display, and use the dynamic scanning method to show the changing number characters.
 
-Sketch_16.2_4_Dight_7-Segment_Display
+Sketch_4_Dight_7-Segment_Display
 ----------------------------------------------
 
 .. image:: ../_static/imgs/16_74HC595_&_7-Segment_Display/Chapter16_12.png
@@ -289,7 +289,7 @@ The usage of the writeData function is the same as in the previous two sections,
     :lines: 47-54
     :dedent:
 
-In the loop function, because there are four digital tubes, a “for loop” is used to display the values of each one in turn. For example, when i =0, turn ON the first digital tube to display the first value, then turn ON the second digital tube to display the second value, until all four digital tubes display their own values. Because the displaying time from the first number to the fourth number is so short, it may display many times in one second, but our eyes can't keep up with the speed of the digital tube, so we look as if the digital tube is displaying different Numbers at the same time.
+In the loop function, because there are four digital tubes, a "for loop" is used to display the values of each one in turn. For example, when i =0, turn ON the first digital tube to display the first value, then turn ON the second digital tube to display the second value, until all four digital tubes display their own values. Because the displaying time from the first number to the fourth number is so short, it may display many times in one second, but our eyes can't keep up with the speed of the digital tube, so we look as if the digital tube is displaying different Numbers at the same time.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.2_4_Digit_7-Segment_Display/Sketch_16.2_4_Digit_7-Segment_Display.ino
     :linenos: 

@@ -4,7 +4,7 @@ Chapter Servo
 
 Previously, we learned how to control the speed and rotational direction of a motor. In this chapter, we will learn about servos which are a rotary actuator type motor that can be controlled to rotate to specific angles.
 
-Project 18.1 Servo Sweep
+Project Servo Sweep
 ********************************
 
 First, we need to learn how to make a servo rotate.
@@ -38,7 +38,7 @@ Component knowledge
 Servo
 --------------------------
 
-Servo is a compact package which consists of a DC motor, a set of reduction gears to provide torque, a sensor and control circuit board. Most servos only have a 180-degree range of motion via their “horn”. Servos can output higher torque than a simple DC motor alone and they are widely used to control motion in model cars, model airplanes, robots, etc. Servos have three wire leads which usually terminate to a male or female 3-pin plug. Two leads are for electric power: positive (2-VCC, Red wire), negative (3-GND, Brown wire), and the signal line (1-Signal, Orange wire), as represented in the Servo provided in your Kit.
+Servo is a compact package which consists of a DC motor, a set of reduction gears to provide torque, a sensor and control circuit board. Most servos only have a 180-degree range of motion via their "horn". Servos can output higher torque than a simple DC motor alone and they are widely used to control motion in model cars, model airplanes, robots, etc. Servos have three wire leads which usually terminate to a male or female 3-pin plug. Two leads are for electric power: positive (2-VCC, Red wire), negative (3-GND, Brown wire), and the signal line (1-Signal, Orange wire), as represented in the Servo provided in your Kit.
 
 .. image:: ../_static/imgs/18_Servo/Chapter18_01.png
     :align: center
@@ -85,7 +85,7 @@ Use caution when supplying power to the servo, it should be 5V. Make sure you do
 Sketch
 ===========================
 
-Sketch_18.1_Servo_Sweep
+Sketch_Servo_Sweep
 ----------------------------
 
 .. image:: ../_static/imgs/18_Servo/Chapter18_04.png
@@ -135,7 +135,7 @@ Control the steering gear to rotate from 0 ° to 180 °, and then rotate from 18
     :lines: 20-27
     :dedent:
 
-Project 18.2 Servo Knop
+Project Servo Knop
 **********************************
 
 Use a potentiometer to control the servo motor to rotate at any angle.
@@ -183,7 +183,7 @@ Use caution when supplying power to the servo, it should be 5V. Make sure you do
 Sketch
 =================================
 
-Sketch_18.2_Servo_Sweep
+Sketch_Servo_Sweep
 --------------------------------
 
 .. image:: ../_static/imgs/18_Servo/Chapter18_08.png

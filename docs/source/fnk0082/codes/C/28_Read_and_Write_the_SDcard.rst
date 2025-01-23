@@ -4,7 +4,7 @@ Chapter Read and Write the SDcard
 
 An SDcard slot is integrated on the back of the ESP32-S3 WROOM. In this chapter we learn how to use ESP32-S3 to read and write SDcard.
 
-Project 28.1 SDMMC Test
+Project SDMMC Test
 ***************************************
 
 Component List
@@ -136,7 +136,7 @@ Connect Freenove ESP32-S3 to the computer using the USB cable.
 Sketch
 =============================
 
-Sketch_28.1_SDMMC_Test
+Sketch_SDMMC_Test
 -----------------------------
 
 .. image:: ../_static/imgs/28_Read_and_Write_the_SDcard/Chapter28_18.png

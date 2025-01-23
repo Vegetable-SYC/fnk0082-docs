@@ -4,7 +4,7 @@ Chapter LED
 
 This chapter is the Start Point in the journey to build and explore ESP32-S3 WROOM electronic projects. We will start with simple "Blink" project.
 
-Project 1.1 Blink
+Project Blink
 **************************
 
 In this project, we will use ESP32-S3 WROOM to control blinking a common LED.
@@ -133,7 +133,7 @@ According to the circuit, when the GPIO2 of ESP32-S3 WROOM output level is high,
 
 Upload the following Sketch: 
 
-**Freenove_Ultimate_Starter_Kit_for_ESP32_S3\Sketches\Sketch_01.1_Blink.**
+**Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\Sketches\\Sketch_01.1_Blink.**
 
 Before uploading the code, click " **Tools** ", " **Board** " and select " **ESP32S3 Dev Module** ".
 
@@ -154,7 +154,7 @@ Select the serial port.
 .. image:: ../_static/imgs/1_LED/Chapter01_15.png
     :align: center
 
-Sketch_01.1_Blink
+Sketch_Blink
 ------------------------------
 
 Click the Upload button and it will compile and upload the Sketch to the ESP32-S3-WROOM.

@@ -4,7 +4,7 @@ Chapter Stepper Motor
 
 In this project, we will learn how to drive a stepper motor, and understand its working principle.
 
-Project 19.1 Stepper Motor
+Project Stepper Motor
 **********************************
 
 Component List
@@ -52,7 +52,7 @@ The electronic schematic diagram of a four-phase stepper motor is shown below:
 .. image:: ../_static/imgs/19_Stepper_Motor/Chapter19_04.png
     :align: center
 
-The outside case or housing of the stepper motor is the stator and inside the stator is the rotor. There are a specific number of individual coils, usually an integer multiple of the number of phases the motor has, when the stator is powered ON, an electromagnetic field will be formed to attract a corresponding convex diagonal groove or indentation in the rotor's surface. The rotor is usually made of iron or a permanent magnet. Therefore, the stepper motor can be driven by powering the coils on the stator in an ordered sequence (producing a series of “steps” or stepped movements).
+The outside case or housing of the stepper motor is the stator and inside the stator is the rotor. There are a specific number of individual coils, usually an integer multiple of the number of phases the motor has, when the stator is powered ON, an electromagnetic field will be formed to attract a corresponding convex diagonal groove or indentation in the rotor's surface. The rotor is usually made of iron or a permanent magnet. Therefore, the stepper motor can be driven by powering the coils on the stator in an ordered sequence (producing a series of "steps" or stepped movements).
 
 A common driving process is as follows:
 
@@ -99,7 +99,7 @@ Sketch
 
 This code uses the four-step, four-part mode to drive the stepper motor in the clockwise and anticlockwise directions.
 
-Sketch_19.1_Drive_Stepper_Motor
+Sketch_Drive_Stepper_Motor
 ----------------------------------
 
 .. image:: ../_static/imgs/19_Stepper_Motor/Chapter19_09.png

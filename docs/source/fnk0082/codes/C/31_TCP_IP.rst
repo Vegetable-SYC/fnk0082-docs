@@ -4,7 +4,7 @@ Chapter TCP/IP
 
 In this chapter, we will introduce how ESP32-S3 implements network communications based on TCP/IP protocol. There are two roles in TCP/IP communication, namely Server and Client, which will be implemented respectively with two projects in this chapter.
 
-Project 31.1 As Client
+Project As Client
 ********************************
 
 In this section, ESP32-S3 is used as Client to connect Server on the same LAN and communicate with it.
@@ -68,7 +68,7 @@ Install ControlP5.
 .. image:: ../_static/imgs/31_TCP_IP/Chapter31_04.png
     :align: center
 
-Open the “ **Freenove_Ultimate_Starter_Kit_for_ESP32_S3\Sketches\Sketches\Sketch_31.1_WiFiClient\sketchWiFi\sketchWiFi.pde** ”, and click "Run".
+Open the " **Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\Sketches\\Sketches\\Sketch_31.1_WiFiClient\sketchWiFi\sketchWiFi.pde** ", and click "Run".
 
 .. image:: ../_static/imgs/31_TCP_IP/Chapter31_05.png
     :align: center
@@ -118,7 +118,7 @@ Connect Freenove ESP32-S3 to the computer using the USB cable.
 Sketch
 =======================
 
-Before running the Sketch, please open “sketchWiFi.pde.” first, and click “Run”.
+Before running the Sketch, please open "sketchWiFi.pde." first, and click "Run".
 
 .. image:: ../_static/imgs/31_TCP_IP/Chapter31_09.png
     :align: center
@@ -133,7 +133,7 @@ Next, open Sketch_31.1_WiFiClient.ino. Before running it, please change the foll
 .. image:: ../_static/imgs/31_TCP_IP/Chapter31_11.png
     :align: center
 
-REMOTE_IP needs to be filled in according to the interface of sketchWiFi.pde. Taking this tutorial as an example, its REMOTE_IP is “192.168.1.133”. Generally, by default, the ports do not need to change its value.
+REMOTE_IP needs to be filled in according to the interface of sketchWiFi.pde. Taking this tutorial as an example, its REMOTE_IP is "192.168.1.133". Generally, by default, the ports do not need to change its value.
 
 Click LISTENING, turn on TCP SERVER's data listening function and wait for ESP32-S3 to connect.
 
@@ -150,7 +150,7 @@ ESP32-S3 connects with TCP SERVER, and TCP SERVER receives messages from ESP32-S
 .. image:: ../_static/imgs/31_TCP_IP/Chapter31_14.png
     :align: center
 
-Sketch_31.1_As_Client
+Sketch_As_Client
 ----------------------------------
 
 The following is the program code:
@@ -270,7 +270,7 @@ Sketch
 
 Before running Sketch, please modify the contents of the box below first. 
 
-Sketch_31.2_As_Server
+Sketch_As_Server
 -------------------------------
 
 .. image:: ../_static/imgs/31_TCP_IP/Chapter31_15.png
@@ -290,7 +290,7 @@ Serial Monitor
 
 Processing: 
 
-Open the “ **Freenove_Ultimate_Starter_Kit_for_ESP32_S3\Sketches\Sketches\Sketch_31.2_WiFiServer\sketchWiFi\sketchWiFi.pde** ”.
+Open the " **Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\Sketches\\Sketches\\Sketch_31.2_WiFiServer\sketchWiFi\sketchWiFi.pde** ".
 
 Based on the messages printed by the serial monitor, enter correct IP address and serial port in Processing to establish connection and make communication.
 

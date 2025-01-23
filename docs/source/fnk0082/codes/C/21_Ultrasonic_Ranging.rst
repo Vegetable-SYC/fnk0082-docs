@@ -4,7 +4,7 @@ Chapter Ultrasonic Ranging
 
 In this chapter, we learn a module which use ultrasonic to measure distance, HC SR04.
 
-Project 21.1 Ultrasonic Ranging
+Project Ultrasonic Ranging
 *************************************
 
 In this project, we use ultrasonic ranging module to measure distance, and print out the data in the terminal.
@@ -107,7 +107,7 @@ Note that the voltage of ultrasonic module is 5V in the circuit.
 Sketch
 ==============================
 
-Sketch_21.1_Ultrasonic_Ranging
+Sketch_Ultrasonic_Ranging
 -------------------------------------------
 
 .. image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter21_06.png
@@ -167,7 +167,7 @@ About function pulseIn():
   
   **timeout (optional):** the number of microseconds to wait for the pulse to start; default is one second. 
 
-Project 21.2 Ultrasonic Ranging
+Project Ultrasonic Ranging
 ********************************************
 
 Component List and Circuit
@@ -190,7 +190,7 @@ Refer to the following operations:
 .. image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter21_08.png
     :align: center
   
-Sketch_21.2_Ultrasonic_Ranging
+Sketch_Ultrasonic_Ranging
 --------------------------------------
 
 .. image:: ../_static/imgs/21_Ultrasonic_Ranging/Chapter21_09.png
@@ -244,8 +244,13 @@ Reference
 ----------------------------
 
 .. py:function:: class UltrasonicSensor 	
-  class UltrasonicSensor must be instantiated when used, that is, define an object of Servo type, for example:
-    **UltrasonicSensor ultrasonic(13, 14);**
-    **setTemperature(value):** The speed of sound propagation is different at different temperatures. In order to get more accurate data, this function needs to be called. value is the temperature value of the current environment.
-    **distanceInCentimeters():** The ultrasonic distance acquisition function returns the value in centimeters. 
-    **distanceInMillimeters():** The ultrasonic distance acquisition function returns the value in millimeter.
+  
+    class UltrasonicSensor must be instantiated when used, that is, define an object of Servo type, for example:
+   
+        **UltrasonicSensor ultrasonic(13, 14);**
+        
+        **setTemperature(value):** The speed of sound propagation is different at different temperatures. In order to get more accurate data, this function needs to be called. value is the temperature value of the current environment.
+    
+        **distanceInCentimeters():** The ultrasonic distance acquisition function returns the value in centimeters. 
+    
+        **distanceInMillimeters():** The ultrasonic distance acquisition function returns the value in millimeter.

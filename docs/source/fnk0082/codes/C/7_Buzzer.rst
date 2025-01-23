@@ -4,7 +4,7 @@ Chapter Buzzer
 
 In this chapter, we will learn about buzzers that can make sounds.
 
-Project 7.1 Doorbell
+Project Doorbell
 ***************************************
 
 We will make this kind of doorbell: when the button is pressed, the buzzer sounds; and when the button is released, the buzzer stops sounding.
@@ -108,7 +108,7 @@ Sketch
 
 In this project, a buzzer will be controlled by a push button switch. When the button switch is pressed, the buzzer sounds and when the button is released, the buzzer stops. It is analogous to our earlier project that controlled a LED ON and OFF.
 
-Sketch_07.1_Doorbell
+Sketch_Doorbell
 ----------------------------
 
 .. image:: ../_static/imgs/7_Buzzer/Chapter07_07.png
@@ -128,7 +128,7 @@ The following is the program code:
 
 The code is logically the same as using button to control LED.
 
-Project 7.2 Alertor
+Project Alertor
 *********************************
 
 Next, we will use a passive buzzer to make an alarm.
@@ -140,7 +140,7 @@ Sketch
 
 In this project, the buzzer alarm is controlled by the button. Press the button, then buzzer sounds. If you release the button, the buzzer will stop sounding. It is logically the same as using button to control LED, but in the control method, passive buzzer requires PWM of certain frequency to sound.
 
-Sketch_07.2_Alertor
+Sketch_Alertor
 ------------------------------
 
 .. image:: ../_static/imgs/7_Buzzer/Chapter07_09.png

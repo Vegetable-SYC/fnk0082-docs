@@ -4,7 +4,7 @@ Chapter LED Bar
 
 We have learned how to control a LED blinking, next we will learn how to control a number of LEDs.
 
-Project 3.1 Flowing Light
+Project Flowing Light
 *************************************
 
 In this project, we use a number of LEDs to make a flowing light.
@@ -71,9 +71,9 @@ This project is designed to make a flowing water lamp. Which are these actions: 
 
 Upload following sketch:
 
-**Freenove_Ultimate_Starter_Kit_for_ESP32_S3\Sketches\Sketch_03.1_FlowingLight.**
+**Freenove_Ultimate_Starter_Kit_for_ESP32_S3\\Sketches\\Sketch_03.1_FlowingLight.**
 
-Sketch_03.1_FlowingLight
+Sketch_FlowingLight
 ------------------------------
 
 .. image:: ../_static/imgs/3_LED_Bar/Chapter03_04.png

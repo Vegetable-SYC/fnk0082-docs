@@ -4,7 +4,7 @@ Chapter AD Converter
 
 In this chapter, we will learn how to use ESP32-S3 to read analog signals.
 
-Project 9.1 Read the Voltage of Potentiometer 
+Project Read the Voltage of Potentiometer 
 ********************************************************
 
 In this project, we will use the ADC function of ESP32-S3 to read the voltage value of the potentiometer and print it out through the serial monitor.
@@ -152,7 +152,7 @@ Circuit
 Sketch
 ===============================
 
-Sketch_09.1_ADC
+Sketch_ADC
 -------------------------------
 
 .. image:: ../_static/imgs/9_AD_Converter/Chapter09_08.png

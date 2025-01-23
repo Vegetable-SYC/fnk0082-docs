@@ -4,7 +4,7 @@ Chapter Matrix Keypad
 
 Earlier we learned about a single push button switch. In this chapter, we will learn about matrix keyboards, which integrates a number of push button switches as keys for the purposes of input.
 
-Project 22.1 Matrix Keypad
+Project Matrix Keypad
 ***************************************
 
 In this project, we will attempt to get every key code on the matrix keypad to work.
@@ -84,7 +84,7 @@ Refer to the following operations:
 .. image:: ../_static/imgs/22_Matrix_Keypad/Chapter22_05.png
     :align: center
 
-Sketch_22.1_Get_Input_Characters
+Sketch_Get_Input_Characters
 -------------------------------------------
 
 .. image:: ../_static/imgs/22_Matrix_Keypad/Chapter22_06.png
@@ -167,7 +167,7 @@ Reference
 
 For More information about Keypad, please visit: http://playground.arduino.cc/Code/Keypad
 
-Project 22.2 Keypad Door
+Project Keypad Door
 ***********************************
 
 In this project, we use keypad as a keyboard to control the action of the servo motor.
@@ -223,7 +223,7 @@ Circuit
 Sketch
 ===========================
 
-Sketch_22.2_Keypad_Door
+Sketch_Keypad_Door
 ----------------------------
 
 Verify and upload the code to the ESP32-S3 WROOM and press the keypad to input password with 4 characters. If the input is correct, the servo will move to a certain degree, then return to the original position. If the input is wrong, an input error alarm will be generated.

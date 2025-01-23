@@ -4,7 +4,7 @@ Chapter Serial Communication
 
 Serial Communication is a means of communication between different devices/devices. This section describes ESP32-S3's Serial Communication.
 
-Project 8.1 Serial Print
+Project Serial Print
 ********************************
 
 This project uses ESP32-S3's serial communicator to send data to the computer and print it on the serial monitor.
@@ -65,7 +65,7 @@ Connect Freenove ESP32-S3 to the computer with USB cable.
 Sketch
 ===============================
 
-Sketch_08.1_SerialPrinter
+Sketch_SerialPrinter
 ----------------------------------
 
 .. image:: ../_static/imgs/8_Serial_Communication/Chapter08_05.png
@@ -104,7 +104,7 @@ Reference
 
     Returns the number of milliseconds since the current system was booted.
 
-Project 8.2 Serial Read and Write
+Project Serial Read and Write
 *******************************************
 
 From last section, we use serial port on Freenove ESP32-S3 to send data to a computer, now we will use that to receive data from computer.
@@ -114,7 +114,7 @@ Component and circuit are the same as in the previous project.
 Sketch
 =================================
 
-Sketch_08.2_SerialRW
+Sketch_SerialRW
 -----------------------------------
 
 .. image:: ../_static/imgs/8_Serial_Communication/Chapter08_07.png

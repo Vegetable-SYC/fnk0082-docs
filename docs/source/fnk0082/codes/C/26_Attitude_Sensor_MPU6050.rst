@@ -4,7 +4,7 @@ Chapter Attitude Sensor MPU6050
 
 In this chapter, we will learn about a MPU6050 attitude sensor which integrates an accelerometer and gyroscope.
 
-Project 26.1 Read a MPU6050 Sensor Module
+Project Read a MPU6050 Sensor Module
 ***********************************************
 
 In this project, we will read acceleration and gyroscope data of the MPU6050 sensor
@@ -109,7 +109,7 @@ Refer to the following operations:
 .. image:: ../_static/imgs/26_Attitude_Sensor_MPU6050/Chapter26_04.png
     :align: center
 
-Sketch_26.1_Acceleration_Detection
+Sketch_Acceleration_Detection
 --------------------------------------------
 
 .. image:: ../_static/imgs/26_Attitude_Sensor_MPU6050/Chapter26_05.png
@@ -160,6 +160,7 @@ Finally, the original data of the gyroscope is updated and acquired every second
     :dedent:
 
 Reference
+----------------------------------
 
 .. py:function:: Class MPU6050	
 

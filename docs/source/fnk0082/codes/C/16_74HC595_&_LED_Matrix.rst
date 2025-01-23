@@ -4,7 +4,7 @@ Chapter 74HC595 & LED Matrix
 
 Thus far we have learned how to use the 74HC595 IC chip to control the LED bar graph and the 7-segment display. We will now use 74HC595 IC chips to control a LED matrix.
 
-Project 16.3 LED Matrix
+Project LED Matrix
 ***********************************
 
 In this project, we will use two 74HC595 IC chips to control a monochrome (one color) (8X8) LED matrix to make it display both simple graphics and characters.
@@ -103,8 +103,8 @@ In circuit of this project, the power pin of the 74HC595 IC chip is connected to
         :red:`If you need any support, please contact us via:` support@freenove.com
    * -  |Chapter16_04|
     
-.. |Chapter16_03| image:: ../_static/imgs/16_74HC595_&_7-Segment_Display/Chapter16_04.png
-.. |Chapter16_04| image:: ../_static/imgs/16_74HC595_&_7-Segment_Display/Chapter16_05.png
+.. |Chapter16_03| image:: ../_static/imgs/16_74HC595_&_LED_Matrix/Chapter16_04.png
+.. |Chapter16_04| image:: ../_static/imgs/16_74HC595_&_LED_Matrix/Chapter16_05.png
 
 Sketch
 =============================
@@ -116,7 +116,7 @@ The following code will make LED matrix display a smiling face, and then display
 
 Download the code to ESP32-S3 WROOM, and the LED matrix display a smiling face, and then display characters "0 to F" scrolling in a loop on the LED matrix.
 
-Sketch_16.3_LED_Matrix
+Sketch_LED_Matrix
 ----------------------------
 
 The following is the program code:
@@ -126,7 +126,7 @@ The following is the program code:
     :language: c
     :dedent:
 
-The first “for” loop in the “while” loop is used to display a static smile. Displaying column information from left to right, one column at a time with a total of 8 columns. This repeats 500 times to ensure sufficient display time.
+The first "for" loop in the "while" loop is used to display a static smile. Displaying column information from left to right, one column at a time with a total of 8 columns. This repeats 500 times to ensure sufficient display time.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.3_LED_Matrix/Sketch_16.3_LED_Matrix.ino
     :linenos: 
@@ -134,7 +134,7 @@ The first “for” loop in the “while” loop is used to display a static smi
     :lines: 45-56
     :dedent:
 
-The second “for” loop is used to display scrolling characters "0 to F", for a total of 17* 8 = 144 columns. Displaying the 0-8 column, then the 1-9 column, then the 2-10 column...... and so on…128-136 column in consecutively to achieve the scrolling effect. The display of each frame is repeated a certain number of times and the more repetitions, the longer the single frame display will be and the slower the scrolling movement.
+The second "for" loop is used to display scrolling characters "0 to F", for a total of 17* 8 = 144 columns. Displaying the 0-8 column, then the 1-9 column, then the 2-10 column...... and so on…128-136 column in consecutively to achieve the scrolling effect. The display of each frame is repeated a certain number of times and the more repetitions, the longer the single frame display will be and the slower the scrolling movement.
 
 .. literalinclude:: ../../../freenove_Kit/C/Sketches/Sketch_16.3_LED_Matrix/Sketch_16.3_LED_Matrix.ino
     :linenos: 
@@ -143,3 +143,4 @@ The second “for” loop is used to display scrolling characters "0 to F", for 
     :dedent:
 
 The amount of pins of ESP32-S3 is limited, so you need to find ways to save pins. If you use ESP32-S3's GPIO to control the lattice without using 74HC595, you need 16 pins for the use of LED matrix. In this example, we use two 74HC595 to drive the LED matrix, requiring only three pins, so that we could save the rest of 13 pins.
+

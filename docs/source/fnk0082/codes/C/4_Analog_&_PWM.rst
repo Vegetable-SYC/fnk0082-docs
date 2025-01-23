@@ -6,7 +6,7 @@ In previous study, we have known that one button has two states: pressed and rel
 
 First, let's learn how to control the brightness of a LED.
 
-Project 4.1 Breathing LED
+Project Breathing LED
 ***********************************
 
 Breathing light, that is, LED is turned from off to on gradually, and gradually from on to off, just like "breathing". So, how to control the brightness of a LED?  We will use PWM to achieve this target.
@@ -88,11 +88,11 @@ This circuit is the same as the one in engineering Blink.
    :align: center
    
    * -  Schematic diagram
-   * -  |Chapter03_02|
+   * -  |Chapter04_03|
    * -  Hardware connection. 
        
         :red:`If you need any support, please contact us via:` support@freenove.com
-   * -  |Chapter03_03|
+   * -  |Chapter04_04|
         
         :red:`Don't rotate ESP32-S3 WROOM 180° for connection.`
     
@@ -104,7 +104,7 @@ Sketch
 
 This project is designed to make PWM output GPIO2 with pulse width increasing from 0% to 100%, and then reducing from 100% to 0% gradually.
 
-Sketch_04.1_BreathingLight
+Sketch_BreathingLight
 ----------------------------------
 
 .. image:: ../_static/imgs/4_Analog_&_PWM/Chapter04_05.png
@@ -159,7 +159,7 @@ You can also adjust the rate of the state change of LED by changing the paramete
     
     Writes the pulse width value to a PWM channel.
 
-Project 4.2 Meteor Flowing Light
+Project Meteor Flowing Light
 *****************************************
 
 After learning about PWM, we can use it to control LED bar graph and realize a cooler flowing light.
@@ -216,7 +216,7 @@ Sketch
 
 Meteor flowing light will be implemented with PWM.
 
-Sketch_04.2_FlowingLight2
+Sketch_FlowingLight2
 --------------------------------
 
 .. image:: ../_static/imgs/4_Analog_&_PWM/Chapter04_09.png

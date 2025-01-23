@@ -4,7 +4,7 @@ Chapter Touch Sensor
 
 ESP32-S3 offers up to 14 capacitive touch GPIO, and as you can see from the previous section, mechanical switches are prone to jitter that must be eliminated when used, which is not the case with ESP32-S3's built-in touch sensor. In addition, on the service life, the touch switch also has advantages that mechanical switch is completely incomparable.
 
-Project 10.1 Read Touch Sensor
+Project Read Touch Sensor
 *********************************************
 
 This project reads the value of the touch sensor and prints it out.
@@ -102,7 +102,7 @@ Circuit
 Sketch
 ============================
 
-Sketch_10.1_TouchRead
+Sketch_TouchRead
 ----------------------------
 
 .. image:: ../_static/imgs/10_Touch_Sensor/Chapter10_03.png
@@ -123,7 +123,7 @@ Reference
 
 Read touch sensor value. (values close to 0 mean touch detected)
 
-Project 10.2 Touch Lamp
+Project Touch Lamp
 ***********************************
 
 In this project, we will use ESP32-S3's touch sensor to create a touch switch lamp.
@@ -175,7 +175,7 @@ Circuit
 Sketch
 =============================
 
-Sketch_10.2_TouchLamp
+Sketch_TouchLamp
 ------------------------------
 
 .. image:: ../_static/imgs/10_Touch_Sensor/Chapter10_08.png

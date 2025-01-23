@@ -4,7 +4,7 @@ Chapter Camera Web Server
 
 In this section, we'll use ESP32-S3's video function as an example to study.
 
-Project 32.1 Camera Web Server
+Project Camera Web Server
 *********************************************
 
 Connect ESP32-S3 using USB and check its IP address through serial monitor. Use web page to access IP address to obtain video and image data.
@@ -32,7 +32,7 @@ Connect Freenove ESP32-S3 to the computer using the USB cable.
 Sketch
 ============================
 
-Sketch_32.1_As_CameraWebServer
+Sketch_As_CameraWebServer
 -------------------------------------
 
 .. image:: ../_static/imgs/32_Camera_Web_Server/Chapter32_02.png
@@ -168,7 +168,7 @@ Reference
 
 :red:`We recommend that the resolution not exceed VGA(640x480).`
 
-Project 32.2 Video Web Server
+Project Video Web Server
 *****************************************
 
 Connect to ESP32-S3 using USB and view its IP address through a serial monitor. Access IP addresses through web pages to obtain real-time video data.
@@ -204,7 +204,7 @@ Connect Freenove ESP32-S3 to the computer using the USB cable.
 Sketch
 ================================
 
-Sketch_32.2_As_VideoWebServer
+Sketch_As_VideoWebServer
 ---------------------------------
 
 .. image:: ../_static/imgs/32_Camera_Web_Server/Chapter32_07.png
@@ -259,7 +259,7 @@ Open the video streams server function of the camera and print its IP address vi
     :lines: 41-45
     :dedent:
 
-Project 32.3 Camera and SDcard
+Project Camera and SDcard
 ***********************************
 
 In this chapter, we continue to use the camera and SD card. We will use the onboard button as the shutter. When the button is pressed, the ESP32-S3 takes a photo and stores the photo in the SD folder.
@@ -309,17 +309,17 @@ The first way, open the Arduino IDE, click Sketch -> Include Library -> Manager 
 .. image:: ../_static/imgs/32_Camera_Web_Server/Chapter32_10.png
     :align: center
 
-In the pop-up window, Library Manager, search for the name of the Library, “Freenove WS2812 Lib for ESP32”. Then click Install. 
+In the pop-up window, Library Manager, search for the name of the Library, "Freenove WS2812 Lib for ESP32". Then click Install. 
 
 .. image:: ../_static/imgs/32_Camera_Web_Server/Chapter32_11.png
     :align: center
 
-The second way, open Arduino IDE, click SketchInclude LibraryAdd .ZIP Library, In the pop-up window, find the file named “./Libraries/Freenove_WS2812_Lib_for_ESP32.Zip” which locates in this directory, and click OPEN.
+The second way, open Arduino IDE, click SketchInclude LibraryAdd .ZIP Library, In the pop-up window, find the file named "./Libraries/Freenove_WS2812_Lib_for_ESP32.Zip" which locates in this directory, and click OPEN.
 
 .. image:: ../_static/imgs/32_Camera_Web_Server/Chapter32_12.png
     :align: center
 
-Sketch_32.3_Camera_SDcard
+Sketch_Camera_SDcard
 --------------------------------
 
 .. image:: ../_static/imgs/32_Camera_Web_Server/Chapter32_13.png
