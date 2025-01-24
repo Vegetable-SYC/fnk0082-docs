@@ -92,7 +92,7 @@ Code
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “23.1_Infrared_Remote”. Select “irrecvdata.py”, right click your mouse to select “Upload to /”, wait for “irrecvdata.py” to be uploaded to ESP32-S3 and then double click “Infrared_Remote.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Infrared_Remote”. Select “irrecvdata.py”, right click your mouse to select “Upload to /”, wait for “irrecvdata.py” to be uploaded to ESP32-S3 and then double click “Infrared_Remote.py”. 
 
 Infrared_Remote
 ----------------------------------
@@ -110,6 +110,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/23.1_Infrared_Remote/Infrared_Remote.py
     :linenos: 
     :language: python
+    :lines: 1-10
     :dedent:
 
 Import the infrared decoder. 
@@ -232,7 +233,7 @@ The Code controls the brightness of the LED by determining the key value of the 
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “23.2_Control_LED_through_Infrared_Remote”. Select “irrecvdata.py”, right click your mouse to select “Upload to /”, wait for “irrecvdata.py” to be uploaded to ESP32-S3 and then double click “Control_LED_through_Infrared_Remote.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Control_LED_through_Infrared_Remote”. Select “irrecvdata.py”, right click your mouse to select “Upload to /”, wait for “irrecvdata.py” to be uploaded to ESP32-S3 and then double click “Control_LED_through_Infrared_Remote.py”. 
 
 Control_LED_through_Infrared_Remote
 --------------------------------------------

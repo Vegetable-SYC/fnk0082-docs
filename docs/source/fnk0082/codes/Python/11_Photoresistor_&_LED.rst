@@ -96,6 +96,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/11.1_NightLamp/NightLamp.py
     :linenos: 
     :language: python
+    :lines: 1-20
     :dedent:
 
 In this code, we use ADC to read the ADC value of the photoresist and map it to the PWM of the control LED, so that the brightness of the LED can change accordingly with the change of the ambient light intensity.

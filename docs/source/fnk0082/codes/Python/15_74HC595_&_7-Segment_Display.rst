@@ -120,7 +120,7 @@ In this section, the 74HC595 is used in the same way as in the previous section,
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer”  “D:”  “Micropython_Codes”  “15.1_74HC595_and_7_segment_display”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “74HC595_and_7_segment_display”. 
 
 Select “my74HC595.py”, right click your mouse to select “Upload to /”, wait for “my74HC595.py” to be uploaded to ESP32-S3 and then double click“74HC595_and_7_segment_display.py”. 
 
@@ -140,6 +140,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.1_74HC595_and_7_segment_display/74HC595_and_7_segment_display.py
     :linenos: 
     :language: python
+    :lines: 1-14
     :dedent:
 
 Import time and my74HC595 modules.
@@ -245,7 +246,7 @@ Code
 
 In this code, we use the 74HC595 IC Chip to control the 4-Digit 7-Segment Display, and use the dynamic scanning method to show the changing number characters.
 
-Open “Thonny”, click “This computer”  “D:”  “Micropython_Codes”  “15.2_4_Digit_7_Segment_Display”. Select “my74HC595.py”, right click your mouse to select “Upload to /”, wait for “my74HC595.py” to be uploaded to ESP32-S3 and double click “4_Digit_7_Segment_Display.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “4_Digit_7_Segment_Display”. Select “my74HC595.py”, right click your mouse to select “Upload to /”, wait for “my74HC595.py” to be uploaded to ESP32-S3 and double click “4_Digit_7_Segment_Display.py”. 
 
 4_Digit_7_Segment_Display
 ----------------------------------
@@ -263,6 +264,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/15.2_4_Digit_7_Segment_Display/4_Digit_7_Segment_Display.py
     :linenos: 
     :language: python
+    :lines: 1-25
     :dedent:
 
 Import time, my74HC595 and Pin modules.

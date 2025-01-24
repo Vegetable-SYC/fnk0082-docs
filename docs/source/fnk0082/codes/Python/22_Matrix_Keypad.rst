@@ -48,7 +48,7 @@ Similar to the integration of a LED matrix, the 4x4 keypad matrix has each row o
 .. image:: ../_static/imgs/22_Matrix_Keypad/Chapter22_02.png
     :align: center
 
-The usage is similar to the LED matrix, using a row or column scanning method to detect the state of each key’s position by column and row. Take column scanning method as an example, send low level to the first 1 column (Pin1), detect level state of row 5, 6, 7, 8 to judge whether the key A, B, C, D are pressed. Then send low level to column 2, 3, 4 in turn to detect whether other keys are pressed. Therefore, you can get the state of all of the keys.
+The usage is similar to the LED matrix, using a row or column scanning method to detect the state of each key's position by column and row. Take column scanning method as an example, send low level to the first 1 column (Pin1), detect level state of row 5, 6, 7, 8 to judge whether the key A, B, C, D are pressed. Then send low level to column 2, 3, 4 in turn to detect whether other keys are pressed. Therefore, you can get the state of all of the keys.
 
 Circuit
 ===========================================
@@ -94,6 +94,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/22.1_Matrix_Keypad/Matrix_Keypad.py
     :linenos: 
     :language: python
+    :lines: 1-14
     :dedent:
 
 Import keypad module.
@@ -197,7 +198,7 @@ Code
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer”  “D:”  “Micropython_Codes”  “22.2_Keypad_Door”. Select “keypad.py” and “myservo.py”, right click your mouse to select “Upload to /”, wait for “keypad.py” and “myservo.py” to be uploaded to ESP32-S3 and then double click “Keypad_Door.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Keypad_Door”. Select “keypad.py” and “myservo.py”, right click your mouse to select “Upload to /”, wait for “keypad.py” and “myservo.py” to be uploaded to ESP32-S3 and then double click “Keypad_Door.py”. 
 
 Keypad_Door
 ---------------------------

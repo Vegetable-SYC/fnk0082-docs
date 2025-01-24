@@ -100,7 +100,7 @@ Code
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer”  “D:”  “Micropython_Codes”  “12.1_Thermometer” and double click “Thermometer.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Thermometer” and double click “Thermometer.py”. 
 
 Thermometer
 ---------------------------
@@ -120,6 +120,7 @@ The following is the code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/12.1_Thermometer/Thermometer.py
     :linenos: 
     :language: python
+    :lines: 1-18
     :dedent:
 
 In the code, the ADC value of ADC module A0 port is read, and then it calculates the voltage and the resistance of Thermistor according to Ohms Law. Finally, it calculates the temperature sensed by the Thermistor, according to the formula. 

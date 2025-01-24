@@ -48,7 +48,7 @@ Similar to the integration of a LED matrix, the 4x4 keypad matrix has each row o
 .. image:: ../_static/imgs/22_Matrix_Keypad/Chapter22_02.png
     :align: center
 
-The usage is similar to the LED matrix, using a row or column scanning method to detect the state of each key’s position by column and row. Take column scanning method as an example, send low level to the first 1 column (Pin1), detect level state of row 5, 6, 7, 8 to judge whether the key A, B, C, D are pressed. Then send low level to column 2, 3, 4 in turn to detect whether other keys are pressed. Therefore, you can get the state of all of the keys.
+The usage is similar to the LED matrix, using a row or column scanning method to detect the state of each key's position by column and row. Take column scanning method as an example, send low level to the first 1 column (Pin1), detect level state of row 5, 6, 7, 8 to judge whether the key A, B, C, D are pressed. Then send low level to column 2, 3, 4 in turn to detect whether other keys are pressed. Therefore, you can get the state of all of the keys.
 
 Circuit
 ===========================================

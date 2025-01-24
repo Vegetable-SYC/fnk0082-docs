@@ -60,7 +60,7 @@ Code
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “08.1_Serial_Print” and double “Serial_Print.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Serial_Print” and double “Serial_Print.py”. 
 
 08.1_Serial_Print
 -------------------------------
@@ -82,11 +82,8 @@ The following is the program code:
 
 ESP32-S3 has 3 serial ports, one of which is used as REPL, that is, Pin(43) and Pin(44) are occupied, and generally it is not recommended to be used as tx, rx. The other two serial ports can be configured simply by calling the UART module.
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/08.1_Serial_Print/Serial_Print.py
-    :linenos: 
-    :language: python
-    :lines: 8-11
-    :dedent:
+.. image:: ../_static/imgs/8_Serial_Communication/Chapter08_11.png
+    :align: center
 
 Reference
 ----------------------------
@@ -149,7 +146,7 @@ Component and circuit are the same as in the previous project.
 Code
 =================================
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “08.2_Serial_Read_and_Write” and double click “Serial_Read_and_Write.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Serial_Read_and_Write” and double click “Serial_Read_and_Write.py”. 
 
 Serial_Read_and_Write
 -------------------------------------------

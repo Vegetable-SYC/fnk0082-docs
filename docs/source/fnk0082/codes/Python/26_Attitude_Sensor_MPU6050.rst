@@ -97,7 +97,7 @@ Code
 
 Move the program folder “ **Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes** ” to disk(D) in advance with the path of “ **D:/Micropython_Codes** ”.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “26.1_MPU6050”. Select “mpu6050.py”, right click your mouse to select “Upload to /”, wait for “mpu6050.py” to be uploaded to ESP32-S3 and then double click “Acceleration.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “MPU6050”. Select “mpu6050.py”, right click your mouse to select “Upload to /”, wait for “mpu6050.py” to be uploaded to ESP32-S3 and then double click “Acceleration.py”. 
 
 MPU6050
 ------------------------------

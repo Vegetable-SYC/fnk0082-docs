@@ -114,7 +114,7 @@ In this project, we will make a flowing water light with a 74HC595 chip to learn
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer”  “D:”  “Micropython_Codes”  “14.1_Flowing_Water_Light”. Select “my74HC595.py”, right click your mouse to select “Upload to /”, wait for “my74HC595.py”to be uploaded to ESP32-S3 and then double click “Flowing_Water_Light.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Flowing_Water_Light”. Select “my74HC595.py”, right click your mouse to select “Upload to /”, wait for “my74HC595.py”to be uploaded to ESP32-S3 and then double click “Flowing_Water_Light.py”. 
 
 Flowing_Water_Light
 -------------------------
@@ -164,7 +164,7 @@ Reference
     
     Before each use of the object **Chip74HC595** , make sure my74HC595.py has been uploaded to “/” of ESP32S3, and then add the statement “ **from my74HC595 import Chip74HC595** ” to the top of the python file. 
     
-    **Chip74HC595():** An object. By default, 74HC595's DS pin is connected to Pin(14) of ESP32S3, ST_CP pin is connected to ESP32S3’s Pin(12) and OE pin is connected to ESP32S3’s Pin(5). If you need to modify the pins, just do the following operations.
+    **Chip74HC595():** An object. By default, 74HC595's DS pin is connected to Pin(14) of ESP32S3, ST_CP pin is connected to ESP32S3's Pin(12) and OE pin is connected to ESP32S3's Pin(5). If you need to modify the pins, just do the following operations.
     
     **chip=Chip74HC595()** or **chip=Chip74HC595(12,13,14,5)**
     

@@ -154,7 +154,7 @@ Code
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “09.1_AnalogRead and then click “AnalogRead.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “AnalogRead and then click “AnalogRead.py”. 
 
 AnalogRead  
 -------------------------------
@@ -172,6 +172,7 @@ The following is the code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/09.1_AnalogRead/AnalogRead.py
     :linenos: 
     :language: python
+    :lines: 1-15
     :dedent:
 
 Import Pin, ADC modules.

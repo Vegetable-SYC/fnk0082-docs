@@ -72,7 +72,7 @@ Code
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “24.1_Hygrothermograph” and double click  “Hygrothermograph.py”.
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Hygrothermograph” and double click  “Hygrothermograph.py”.
 
 Hygrothermograph
 ----------------------------
@@ -90,6 +90,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/24.1_Hygrothermograph/Hygrothermograph.py
     :linenos: 
     :language: python
+    :lines: 1-13
     :dedent:
 
 Import machine, time and dht modules.
@@ -209,7 +210,7 @@ Circuit
 Code
 =====================
 
-Open “Thonny”, click “This computer”  “D:”  “Micropython_Codes”  24.2_Hygrothermograph”. Select “I2C_LCD.py” and “LCD_API.py”, right click your mouse to select “Upload to /”, wait for “I2C_LCD.py” and “LCD_API.py” to be uploaded to ESP32-S3 and then double click “Hygrothermograph.py”.
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> 24.2_Hygrothermograph”. Select “I2C_LCD.py” and “LCD_API.py”, right click your mouse to select “Upload to /”, wait for “I2C_LCD.py” and “LCD_API.py” to be uploaded to ESP32-S3 and then double click “Hygrothermograph.py”.
 
 Hygrothermograph
 ------------------------------
@@ -227,6 +228,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/24.2_Hygrothermograph/Hygrothermograph.py
     :linenos: 
     :language: python
+    :lines: 1-28
     :dedent:
 
 Import DHT11 and I2C LCD1602 modules.

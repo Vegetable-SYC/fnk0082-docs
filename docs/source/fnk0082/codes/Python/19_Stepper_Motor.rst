@@ -101,7 +101,7 @@ This code uses the four-step, four-part mode to drive the Stepper Motor in the c
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “19.1_Stepping_Motor”. Select “stepmotor.py”, right click your mouse to select “Upload to /”, wait for “myservo.py” to be uploaded to ESP32-S3 and then double click “Stepping_Motor.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Stepping_Motor”. Select “stepmotor.py”, right click your mouse to select “Upload to /”, wait for “myservo.py” to be uploaded to ESP32-S3 and then double click “Stepping_Motor.py”. 
 
 Stepping_Motor
 ------------------------
@@ -119,6 +119,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/19.1_Stepping_Motor/Stepping_Motor.py
     :linenos: 
     :language: python
+    :lines: 1-15
     :dedent:
 
 Import time and stepmotor modules.

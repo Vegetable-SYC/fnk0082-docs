@@ -61,7 +61,7 @@ Code
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click  “This computer” -> “D:” -> “Micropython_Codes” -> “10.1_Soft_LED” and double click “Soft_LED.py”. 
+Open “Thonny”, click  “This computer” -> “D:” -> “Micropython_Codes” -> “Soft_LED” and double click “Soft_LED.py”. 
 
 Soft_LED
 ------------------------------------
@@ -127,7 +127,7 @@ Circuit
 Code
 ============================
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “10.2_Soft_Colorful_Light” and double click “Soft_Colorful_Light.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Soft_Colorful_Light” and double click “Soft_Colorful_Light.py”. 
 
 Soft_Colorful_Light
 ----------------------------
@@ -142,6 +142,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/10.2_Soft_Colorful_Light/Soft_Colorful_Light.py
     :linenos: 
     :language: python
+    :lines: 1-29
     :dedent:
 
 In the code, read the ADC value of 3 potentiometers and map it into PWM duty cycle to control the control 3 LEDs with different color of RGBLED, respectively.
@@ -195,7 +196,7 @@ Circuit
 Code
 ==================================
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “10.3_Soft_Rainbow_Light” and double click “Soft_Rainbow_Light.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Soft_Rainbow_Light” and double click “Soft_Rainbow_Light.py”. 
 
 Soft_Rainbow_Light
 -----------------------------------
@@ -210,9 +211,10 @@ Click “Run current script”. Rotate the handle of potentiometer and the color
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/10.3_Soft_Rainbow_Light/Rainbow_Light.py
+.. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/10.3_Soft_Rainbow_Light/Soft_Rainbow_Light.py
     :linenos: 
     :language: python
+    :lines: 1-43
     :dedent:
 
 The logic of the code is basically the same as the previous project :ref:`Rainbow Light <Rainbow_Light>`. The difference is that in this code, the starting point of the color is controlled by the potentiometer.

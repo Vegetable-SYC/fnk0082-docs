@@ -111,7 +111,7 @@ Code
 
 The following code will make LEDMatrix display a smiling face, and then display scrolling character "0-F".
 
-Open “Thonny”, click “This computer”  “D:”  “Micropython_Codes”  “Micropython_Codes”.  Select “HC595.py”, right click your mouse to select “Upload to /”, wait for “HC595.py” to be uploaded to ESP32-S3 and double click “LED_Matrix.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Micropython_Codes”.  Select “HC595.py”, right click your mouse to select “Upload to /”, wait for “HC595.py” to be uploaded to ESP32-S3 and double click “LED_Matrix.py”. 
 
 16.1_LED_Matrix
 -----------------------------
@@ -152,7 +152,7 @@ Use a nesting of two for loops to display “0”-“F”.
     :lines: 49-58
     :dedent:
 
-The amount of pins of ESP32-S3 is limited, so we need to find ways to save pins. If we use ESP32S3’s GPIO to control the LEDMatrix instead of 74HC595, we need 16 pins to drive LED matrix. In this example, we use two 74HC595 chips to drive the LED matrix, requiring only three pins, so that we could save the rest of 13 pins.
+The amount of pins of ESP32-S3 is limited, so we need to find ways to save pins. If we use ESP32S3's GPIO to control the LEDMatrix instead of 74HC595, we need 16 pins to drive LED matrix. In this example, we use two 74HC595 chips to drive the LED matrix, requiring only three pins, so that we could save the rest of 13 pins.
 
 Reference
 --------------------------------

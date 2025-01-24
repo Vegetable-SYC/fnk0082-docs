@@ -92,7 +92,7 @@ Code
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “06.1_Neopixel” and double click “Neopixel.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Neopixel” and double click “Neopixel.py”. 
 
 Neopixel
 -------------------------------------
@@ -176,7 +176,7 @@ Continue to use the following color model to equalize the color distribution of 
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer”  “D:”  “Micropython_Codes”  “06.2_Rainbow_light” and then double click “Rainbow_light.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Rainbow_light” and then double click “Rainbow_light.py”. 
 
 Rainbow_light 
 ------------------------------------
@@ -212,7 +212,7 @@ Set the color brightness of the module.
     :lines: 7-7
     :dedent:
 
-Use a nesting of two for loops. The first for loop makes the value of i increase from 0 to 255 automatically and the wheel() function processes the value of i into data of the module’s three colors; the second for loop writes the color data to the module.
+Use a nesting of two for loops. The first for loop makes the value of i increase from 0 to 255 automatically and the wheel() function processes the value of i into data of the module's three colors; the second for loop writes the color data to the module.
 
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/06.2_Rainbow_light/Rainbow_light.py
     :linenos: 

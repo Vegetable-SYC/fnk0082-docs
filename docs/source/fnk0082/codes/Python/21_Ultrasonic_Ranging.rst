@@ -109,7 +109,7 @@ Code
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “21.1_Ultrasonic_Ranging” and double click “Ultrasonic_Ranging.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Ultrasonic_Ranging” and double click “Ultrasonic_Ranging.py”. 
 
 21.1_Ultrasonic_Ranging
 --------------------------------
@@ -127,6 +127,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/21.1_Ultrasonic_Ranging/Ultrasonic_Ranging.py
     :linenos: 
     :language: python
+    :lines: 1-27
     :dedent:
 
 Define the control pins of the ultrasonic ranging module.
@@ -172,7 +173,7 @@ Component List and Circuit are the same as the previous section.
 Code
 ===============================
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “21.2_Ultrasonic_Ranging”. Select “hcsr04.py”, right click your mouse to select “Upload to /”, wait for “hcsr04.py” to be uploaded to ESP32-S3 and then double click “Ultrasonic_Ranging.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Ultrasonic_Ranging”. Select “hcsr04.py”, right click your mouse to select “Upload to /”, wait for “hcsr04.py” to be uploaded to ESP32-S3 and then double click “Ultrasonic_Ranging.py”. 
 
 Ultrasonic_Ranging
 ------------------------------
@@ -190,6 +191,7 @@ The following is the program code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/21.2_Ultrasonic_Ranging/Ultrasonic_Ranging.py
     :linenos: 
     :language: python
+    :lines: 1-12
     :dedent:
 
 Import hcsr04 module.

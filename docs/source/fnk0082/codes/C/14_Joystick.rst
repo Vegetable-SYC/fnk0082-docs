@@ -21,15 +21,16 @@ Component List
 |                                                                |
 | |Chapter01_02|                                                 |
 +-----------------------------+----------------------------------+
-| Jumper M/M x1               | Joystick x1                      |
+| Jumper F/M x5               | Joystick x1                      |
 |                             |                                  |
-|  |Chapter01_05|             |  |Chapter14_00|                  |
+|  |Chapter06_01|             |  |Chapter14_00|                  |
 +-----------------------------+----------------------------------+
 
 .. |Chapter01_00| image:: ../_static/imgs/1_LED/Chapter01_00.png
 .. |Chapter01_01| image:: ../_static/imgs/1_LED/Chapter01_01.png
 .. |Chapter01_02| image:: ../_static/imgs/1_LED/Chapter01_02.png
 .. |Chapter01_05| image:: ../_static/imgs/1_LED/Chapter01_05.png
+.. |Chapter06_01| image:: ../_static/imgs/6_LEDPixel/Chapter06_01.png
 .. |Chapter14_00| image:: ../_static/imgs/14_Joystick/Chapter14_00.png
 
 Component knowledge

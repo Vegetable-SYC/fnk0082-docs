@@ -314,7 +314,7 @@ In the pop-up window, Library Manager, search for the name of the Library, "Free
 .. image:: ../_static/imgs/32_Camera_Web_Server/Chapter32_11.png
     :align: center
 
-The second way, open Arduino IDE, click SketchInclude LibraryAdd .ZIP Library, In the pop-up window, find the file named "./Libraries/Freenove_WS2812_Lib_for_ESP32.Zip" which locates in this directory, and click OPEN.
+The second way, open Arduino IDE, click Sketch->Include Library->Add .ZIP Library, In the pop-up window, find the file named "./Libraries/Freenove_WS2812_Lib_for_ESP32.Zip" which locates in this directory, and click OPEN.
 
 .. image:: ../_static/imgs/32_Camera_Web_Server/Chapter32_12.png
     :align: center

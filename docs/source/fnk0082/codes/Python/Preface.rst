@@ -509,7 +509,7 @@ Expand "00.1_Boot" in the "Micropython_Codes" in the directory of disk(D), and d
 .. image:: ../_static/imgs/Preface/Preface114.png
     :align: center
 
-If you want your written programs to run offline, you need to upload boot.py we provided and all your codes to "MicroPython device" and press ESP32S3’s reset key. Here we use programs 00.0 and 00.1 as examples. Select "boot.py", right-click to select "Upload to /".
+If you want your written programs to run offline, you need to upload boot.py we provided and all your codes to "MicroPython device" and press ESP32S3's reset key. Here we use programs 00.0 and 00.1 as examples. Select "boot.py", right-click to select "Upload to /".
 
 .. image:: ../_static/imgs/Preface/Preface115.png
     :align: center
@@ -535,7 +535,7 @@ Each time when ESP32-S3 restarts, if there is a "boot.py" in the root directory,
 .. image:: ../_static/imgs/Preface/Preface118.png
     :align: center
 
-Select "Blink.py" in "01.1_Blink", right-click your mouse and select "Upload to /" to upload code to ESP32S3’s root directory.
+Select "Blink.py" in "01.1_Blink", right-click your mouse and select "Upload to /" to upload code to ESP32S3's root directory.
 
 .. image:: ../_static/imgs/Preface/Preface119.png
     :align: center
@@ -551,7 +551,7 @@ Select "boot.py" in "MicroPython device", right-click to select "Download to ...
 Deleting Files from ESP32S3's Root Directory 
 ===================================================
 
-Select "boot.py" in "MicroPython device", right-click it and select "Delete" to delete "boot.py" from ESP32S3’s root directory.
+Select "boot.py" in "MicroPython device", right-click it and select "Delete" to delete "boot.py" from ESP32S3's root directory.
 
 .. image:: ../_static/imgs/Preface/Preface121.png
     :align: center

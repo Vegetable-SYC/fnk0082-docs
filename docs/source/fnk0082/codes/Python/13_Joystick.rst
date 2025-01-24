@@ -21,15 +21,16 @@ Component List
 |                                                                |
 | |Chapter01_02|                                                 |
 +-----------------------------+----------------------------------+
-| Jumper M/M x1               | Joystick x1                      |
+| Jumper F/M x5               | Joystick x1                      |
 |                             |                                  |
-|  |Chapter01_05|             |  |Chapter14_00|                  |
+|  |Chapter06_01|             |  |Chapter14_00|                  |
 +-----------------------------+----------------------------------+
 
 .. |Chapter01_00| image:: ../_static/imgs/1_LED/Chapter01_00.png
 .. |Chapter01_01| image:: ../_static/imgs/1_LED/Chapter01_01.png
 .. |Chapter01_02| image:: ../_static/imgs/1_LED/Chapter01_02.png
 .. |Chapter01_05| image:: ../_static/imgs/1_LED/Chapter01_05.png
+.. |Chapter06_01| image:: ../_static/imgs/6_LEDPixel/Chapter06_01.png
 .. |Chapter14_00| image:: ../_static/imgs/14_Joystick/Chapter14_00.png
 
 Component knowledge
@@ -75,7 +76,7 @@ In this project's code, we will read the ADC values of X and Y axes of the Joyst
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “13.1_Joystick” and double click “Joystick.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Joystick” and double click “Joystick.py”. 
 
 13.1_Joystick
 -----------------------------
@@ -93,6 +94,7 @@ The flowing is the code:
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/13.1_Joystick/Joystick.py
     :linenos: 
     :language: python
+    :lines: 1-15
     :dedent:
 
 Set the acquisition range of voltage of the two ADC channels to 0-3.3V, and the acquisition width of data to 0-4095.

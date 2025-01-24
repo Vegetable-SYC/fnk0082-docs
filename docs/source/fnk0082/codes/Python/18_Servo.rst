@@ -87,7 +87,7 @@ Code
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “18.1_Servo_Sweep”. Select “myservo.py”, right click your mouse to select “Upload to /”, wait for “myservo.py” to be uploaded to ESP32-S3 and then double click “Servo_Sweep.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Servo_Sweep”. Select “myservo.py”, right click your mouse to select “Upload to /”, wait for “myservo.py” to be uploaded to ESP32-S3 and then double click “Servo_Sweep.py”. 
 
 Servo_Sweep
 --------------------------
@@ -210,7 +210,7 @@ Code
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “18.2_Servo_Knop”. Select “myservo.py”, right click your mouse to select “Upload to /”, wait for “myservo.py” to be uploaded to ESP32-S3 and then double click “Servo_Knop.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Servo_Knop”. Select “myservo.py”, right click your mouse to select “Upload to /”, wait for “myservo.py” to be uploaded to ESP32-S3 and then double click “Servo_Knop.py”. 
  
 Servo_Knop
 ----------------------------------

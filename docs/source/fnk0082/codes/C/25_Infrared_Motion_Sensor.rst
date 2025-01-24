@@ -71,7 +71,7 @@ Description:
 
     Working voltage: 5v-20v(DC) Static current: 65uA.
 
-    Automatic Trigger. When a living body enters into the active area of sensor, the module will output high level (3.3V). When the body leaves the sensor’s active detection area, it will output high level lasting for time period T, then output low level(0V). Delay time T can be adjusted by the potentiometer R1.
+    Automatic Trigger. When a living body enters into the active area of sensor, the module will output high level (3.3V). When the body leaves the sensor's active detection area, it will output high level lasting for time period T, then output low level(0V). Delay time T can be adjusted by the potentiometer R1.
 
     According to the position of jumper cap, you can choose non-repeatable trigger mode or repeatable mode.
 
@@ -83,7 +83,7 @@ Description:
 
     Initialization time: the module needs about 1 minute to initialize after being powered ON. During this period, it will alternately output high or low level. 
 
-    One characteristic of this sensor is when a body moves close to or moves away from the sensor’s dome edge, the sensor will work at high sensitivity. When a body moves close to or moves away from the sensor’s dome in a vertical direction, the sensor cannot detect well (please take note of this deficiency). Note: The sensing range (distance before a body is detected) is adjusted by the potentiometer.
+    One characteristic of this sensor is when a body moves close to or moves away from the sensor's dome edge, the sensor will work at high sensitivity. When a body moves close to or moves away from the sensor's dome in a vertical direction, the sensor cannot detect well (please take note of this deficiency). Note: The sensing range (distance before a body is detected) is adjusted by the potentiometer.
 
     We can regard this sensor as a simple inductive switch when in use.
 

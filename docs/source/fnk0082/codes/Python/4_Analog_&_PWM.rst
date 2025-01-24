@@ -126,7 +126,7 @@ The following is the program code:
     :language: python
     :dedent:
 
-The way that the ESP32-S3 PWM pins output is different from traditionally controllers. It can change frequency and duty cycle by configuring PWM’s parameters at the initialization stage. Define GPIO2’s output frequency as 10000Hz, and assign them to PWM.
+The way that the ESP32-S3 PWM pins output is different from traditionally controllers. It can change frequency and duty cycle by configuring PWM's parameters at the initialization stage. Define GPIO2's output frequency as 10000Hz, and assign them to PWM.
 
 .. literalinclude:: ../../../freenove_Kit/Python/Python_Codes/04.1_BreatheLight/BreatheLight.py
     :linenos: 
@@ -228,7 +228,7 @@ Code
 
 Flowing Light with tail was implemented with PWM.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “04.2_FlowingLight”. Select“pwm.py”, right click to select “Upload to /”, wait for “pwm.py” to be uploaded to ESP32-S3 and then double click “FlowingLight.py”.
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “FlowingLight”. Select“pwm.py”, right click to select “Upload to /”, wait for “pwm.py” to be uploaded to ESP32-S3 and then double click “FlowingLight.py”.
 
 FlowingLight
 ----------------------------------

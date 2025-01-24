@@ -110,7 +110,7 @@ In this project, a buzzer will be controlled by a push button switch. When the b
 
 Move the program folder “Freenove_Ultimate_Starter_Kit_for_ESP32_S3/Python/Python_Codes” to disk(D) in advance with the path of “D:/Micropython_Codes”.
 
-Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “07.1_Doorbell” and double click “Doorbell.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Doorbell” and double click “Doorbell.py”. 
 
 07.1_Doorbell
 -------------------------
@@ -144,7 +144,7 @@ Code
 
 In this project, the buzzer alarm is controlled by the button. Press the button, then buzzer sounds. If you release the button, the buzzer will stop sounding. In the logic, it is the same as using button to control LED. In the control method, passive buzzer requires PWM of certain frequency to sound.
 
-Open “Thonny”, click “This computer”  “D:”  “Micropython_Codes”  “07.2_Alertor”, and double click “Alertor.py”. 
+Open “Thonny”, click “This computer” -> “D:” -> “Micropython_Codes” -> “Alertor”, and double click “Alertor.py”. 
 
 Alertor
 ---------------------------------
@@ -154,7 +154,7 @@ Alertor
 
 Click “Run current script”, press the button, then alarm sounds. And when the button is release, the alarm will stop sounding.
 
-.. image:: ../_static/imgs/7_Buzzer/Chapter07_15.png
+.. image:: ../_static/imgs/7_Buzzer/Chapter07_13.png
     :align: center
 
 The following is the program code:
